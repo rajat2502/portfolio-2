@@ -1,0 +1,273 @@
+body{
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: sans-serif;
+
+}
+/*main grid  */
+.grid-main{
+  margin-left: auto;
+  margin-right: auto;
+  width: 75% !important;
+  height: 65vh;
+  display: grid;
+  grid-template-areas: 'pic header header header header header'
+  'pic links links links links links' 'boxes boxes boxes boxes boxes boxes';
+  grid-template-rows: 27vh 18vh 20vh !important;
+  grid-template-columns: 28% !important;
+  border: .4px solid #343a40;
+}
+
+.grid-main > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 0;
+  font-size: 30px;
+}
+
+.item1{
+  grid-area: pic;
+}
+.item2{
+  grid-area: header;
+  background-color: #343a40 !important;
+}
+
+.item2 a{
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+}
+.item3{
+  grid-area: links;
+  background-color: black !important;
+}
+.item4{
+  grid-area: boxes;
+  display: grid;
+  /* height: 20vh; */
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.pic{
+  width: 100%;
+  height: 100% ;
+}
+.home{
+  background-color: #007bff;
+    cursor: pointer;
+}
+
+.resume{
+  background-color: #28a745;
+    cursor: pointer;
+}
+
+.work{
+  background-color: #ffc107;
+    cursor: pointer;
+}
+
+.contact{
+  background-color: #dc3545;
+    cursor: pointer;
+}
+
+.content{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home:hover , .resume:hover , .work:hover , .contact:hover{
+  opacity: 0.8;
+}
+
+/*Home grid  */
+.grid-home{
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 25% 75%;
+}
+
+.grid-home > div{
+  padding: 45px 20px 20px;
+  font-size: 30px;
+}
+
+.welcome{
+  background-color: #007bff;
+}
+
+.grid-home span , .grid-resume span , .grid-work span , .grid-contact span{
+  display:block;
+  font-size:1.1rem;
+  font-family: 'Work Sans', sans-serif;
+  margin-top: 8px;
+}
+
+.skills{
+  color: black;
+  border: 1px solid rgba(0,0,0,.125);
+  padding-top: 40px;
+}
+
+.skills div{
+  font-size: 25px;
+}
+
+.bars{
+  height: 15px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 6px;
+  background-color: #e9ecef;
+}
+
+.html , .css , .js , .c{
+  height: 100%;
+  background-color: #28a745;
+  border-radius: 6px;
+}
+
+.html{
+  width: 90%;
+}
+
+.css{
+  width:80%;
+}
+
+.js{
+  width: 65%;
+}
+
+.c{
+  width: 70%;
+}
+/* Resume */
+.grid-resume{
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: 45vh;
+  display: grid;
+  grid-template-rows: 25vh 20vh;
+  display: none;
+}
+
+.grid-resume > div {
+  padding: 45px 20px 20px 20px;
+  font-size: 30px;
+}
+
+.myresume{
+  background-color: #28a745;
+}
+
+.download{
+  background-color: #343a40;
+  display: flex;
+  align-items: center;
+  padding-top: 20px !important;
+
+}
+
+.download button{
+  width: auto;
+  font-size: 25px;
+  color: white;
+  background-color:#343a40;
+  border: 1px solid white ;
+  border-radius: 4px;
+  padding: 10px;
+  cursor:pointer;
+}
+
+.download button:hover{
+  color: #343a40;
+  background-color:white;
+}
+/*work*/
+.grid-work{
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: 198vh;
+  display: grid;
+  grid-template-rows: 25vh 172vh;
+  display: none;
+  /* padding-bottom: 10vh; */
+}
+
+.grid-work > div {
+  padding: 45px 20px 20px 20px;
+  font-size: 30px;
+}
+
+.mywork{
+  background-color: #ffc107;
+}
+
+.projectsmain{
+  color: black;
+  border: 1px solid rgba(0,0,0,.125);
+  padding-top: 40px;
+}
+
+.projects > a:hover{
+  opacity: 0.8;
+}
+
+/*grid-contact*/
+
+.grid-contact{
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: 80vh;
+  display: grid;
+  grid-template-rows: 25vh 70vh;
+  display: none;
+}
+
+.grid-contact > div {
+  padding: 45px 20px 20px 20px;
+  font-size: 30px;
+}
+
+.contactme{
+  background-color: #dc3545;
+}
+
+.getintouch{
+  color: black;
+  border: 1px solid rgba(0,0,0,.125);
+  padding-top: 40px;
+}
+
+.getintouch div{
+  font-size: 25px;
+}
+
+input{
+  width: 98%;
+  font-size: 25px;
+  margin-bottom: 15px;
+  color: white;
+  background-color: #343a40;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+label{
+  text-align: left;
+}
