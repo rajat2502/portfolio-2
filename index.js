@@ -1,3 +1,5 @@
+
+// JAVASCRIPT
 $(".home").click(function(){
   $(".grid-home").css("display","block");
   $(".grid-work").css("display","none");
