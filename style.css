@@ -55,17 +55,17 @@ body{
   height: 100% ;
 }
 .home{
-  background-color: #007bff;
     cursor: pointer;
+    background-color:#16a085;
 }
 
 .resume{
-  background-color: #28a745;
+  background-color: #8e44ad;
     cursor: pointer;
 }
 
 .work{
-  background-color: #ffc107;
+  background-color: #f39c12;
     cursor: pointer;
 }
 
@@ -103,7 +103,7 @@ body{
 }
 
 .welcome{
-  background-color: #007bff;
+  background-color: #16a085;
 }
 
 .grid-home span , .grid-resume span , .grid-work span , .grid-contact span{
@@ -169,7 +169,7 @@ body{
 }
 
 .myresume{
-  background-color: #28a745;
+  background-color:#8e44ad;
 }
 
 .download{
@@ -213,7 +213,7 @@ body{
 }
 
 .mywork{
-  background-color: #ffc107;
+  background-color: #f39c12;
 }
 
 .projectsmain{
