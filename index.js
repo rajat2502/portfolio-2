@@ -25,5 +25,5 @@ $(".contact").click(function(){
   $(".grid-contact").css("display","block");
   $(".grid-work").css("display","none");
   $(".grid-resume").css("display","none");
-  $(".grid-resume").css("display","none");
+  $(".grid-home").css("display","none");
 });

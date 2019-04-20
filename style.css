@@ -94,7 +94,7 @@ body{
   width: 75%;
   height: 100vh;
   display: grid;
-  grid-template-rows: 25% 75%;
+  grid-template-rows: 25vh 75%;
 }
 
 .grid-home > div{
